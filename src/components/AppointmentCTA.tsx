@@ -65,11 +65,11 @@ export default function AppointmentCTA() {
             </div>
           </div>
 
-          {/* Doctor Portrait Column */}
+          {/* Treatment Image Column */}
           <div className="lg:col-span-4 relative flex items-center justify-center h-[320px] md:h-[380px] lg:h-[420px] w-full overflow-hidden">
             <Image
-              src={getAssetPath("/doctor.png")}
-              alt="Dr. V.R. Dental Care & Dental Implant Centre"
+              src={getAssetPath("/treatment.jpeg")}
+              alt="V.R. Dental Care & Dental Implant Centre Treatment"
               width={380}
               height={480}
               className="object-contain object-center max-h-full drop-shadow-2xl"
